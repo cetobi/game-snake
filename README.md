@@ -1,3 +1,2 @@
-# Criando jogo da cobrinha
+# Jogo da Cobrinha
 
-Feito no bootcamp da DIO
