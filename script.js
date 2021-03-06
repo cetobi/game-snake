@@ -11,6 +11,10 @@ let food = {
     x: Math.floor(Math.random() * 15 + 1) * box,
     y: Math.floor(Math.random() * 15 + 1) * box
 }
+let parede = {
+    x: Math.floor(Math.random() * 16) * box,
+    y: Math.floor(Math.random() * 16) * box
+}
 
 function criarBG() {
     context.fillStyle = "DarkSlateGray";
@@ -24,12 +28,10 @@ function criarCobrinha() {
     }
 }
 
-function drawFood(){
+function drawFood() {
     context.fillStyle = "CadetBlue";
     context.fillRect(food.x, food.y, box, box);
 }
-
-//function criarParede
 
 document.addEventListener('keydown', update);
 
